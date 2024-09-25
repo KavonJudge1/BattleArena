@@ -54,8 +54,8 @@ namespace BattleArena
 
         private void Start()
         {
-            Character player = new Character(name: "Player", maxHealth: 100, attackPower: 10, defensePower: 5);
-            Character enemy = new Character(name: "Enemy", maxHealth: 100, attackPower: 9, defensePower: 5);
+            Character player = new Character(name: "Caleus", maxHealth: 100, attackPower: 10, defensePower: 5);
+            Character enemy = new Character(name: "Reptile", maxHealth: 100, attackPower: 9, defensePower: 5);
             player.PrintStats();
             Console.WriteLine();
             enemy.PrintStats();

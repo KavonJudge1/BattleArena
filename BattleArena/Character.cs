@@ -7,7 +7,7 @@ using static System.Net.Mime.MediaTypeNames;
 
 namespace BattleArena
 {
-    internal class Character
+    internal class Character : Enemy
     {
         private string _name = "Character";
         private float _maxHealth = 10;
